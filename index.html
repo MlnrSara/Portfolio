@@ -15,6 +15,8 @@
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#volunteering">Volunteering</a></li>
+          <li><a href="#publications">Publications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -31,6 +33,8 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#volunteering" onclick="toggleMenu()">Volunteering</a></li>
+          <li><a href="#publications" onclick="toggleMenu()">Publications</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -42,11 +46,11 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Molnar Sara</h1>
-        <p class="section__text__p2">Computer Science Student</p>
+        <p class="section__text__p2">Embedded Software Engineer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/Molnar_Sara_CV.pdf')"
+            onclick="window.open('./assets/Sara_Molnar_CV.pdf')"
           >
             Download CV
           </button>
@@ -55,10 +59,18 @@
           </button>
         </div>
         <div id="socials-container">
-          <img src="./assets/github.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://github.com/MlnrSara'">
-          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-          onclick="location.href='https://www.linkedin.com/in/sara-viviana-molnar/'">
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/MlnrSara'"
+          />
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sara-viviana-molnar/'"
+          />
         </div>
       </div>
     </section>
@@ -83,8 +95,8 @@
               />
               <h3>Experience</h3>
               <p>
-                1 month <br />
-                Java Internship
+                1.5 years <br />
+                Automotive Embedded Development
               </p>
             </div>
             <div class="details-container">
@@ -94,14 +106,16 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p> High School Mathematics & Informatics Specialization <br/>
-                Intensive Informatics Track</p>
+              <p>
+                Bachelor of Science in Computer Science and Engineering <br />
+                Technical University of Cluj-Napoca
+              </p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Hi, I'm Sara, a passionate Computer Science student that has big dreams of one day becoming an engineer. I love creating, challenging myself to come up with new uncharted paths for some old worn-out problems, being that hardware designs or system architectures for web applications. I have pursued a career in engineering from high school, always striving to enrich my skillset, taking complementary classes in Artificial Intelligence and Blockchain technologies and participating in various coding contests.<br/> 
- When I'm not engulfed in the technical field, you will find me reading, writing or daydreaming while listening to music. When I have my feet on the ground, you can reach me via email (or carrier pidgeon, whichever suits your taste).
+              Hi, I'm Sara, a passionate Embedded Engineer that has big dreams of one day travelling through the stars. I love creating, challenging myself to come up with new uncharted paths for some old worn-out problems, being that hardware designs or system architectures for applications. I have pursued a career in engineering from high school, always striving to enrich my skillset, taking complementary classes in Artificial Intelligence and Blockchain technologies and participating in various coding contests. Recently I have participated in ROSPIN's Summer School, the Rover Engineering track, where I deepened my understanding of Physical AI and satelite data processing.<br />
+              When I'm not engulfed in the technical field, you will find me reading, writing or daydreaming while listening to music. When I have my feet on the ground, you can reach me via email (or carrier pidgeon, whichever suits your taste).
             </p>
           </div>
         </div>
@@ -339,19 +353,99 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
+        onclick="location.href='./#volunteering'"
+      />
+    </section>
+    <section id="volunteering">
+      <p class="section__text__p1">Community &amp; Leadership</p>
+      <h1 class="title">Volunteering</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container info-card">
+            <h2 class="info-card-title">Edubiz Association</h2>
+            <p class="info-card-subtitle">Social Media Manager, Team Leader</p>
+            <p>
+              For five years I have honed my soft skills by participating in personal development workshops, leading volunteering teams in organizing events and activities for the socially disadvantaged. During this time I got to be in charge of the Creative team, with which I had the pleasure of creating meaningful content meant to help teenagers find their vocation.
+            </p>
+          </div>
+          <div class="details-container color-container info-card">
+            <h2 class="info-card-title">Romanian National Opera, Cluj-Napoca</h2>
+            <p class="info-card-subtitle">Event &amp; Logistics Volunteer</p>
+            <p>
+              In the year that I was volunteering with them I was tasked with logistics, with greeting people and showing them to their seats. I sometimes had to resolve conflicts that arose from misunderstandings regarding seat placement.
+            </p>
+          </div>
+          <div class="details-container color-container info-card">
+            <h2 class="info-card-title">Cluj Symphony Experience Festival</h2>
+            <p class="info-card-subtitle">Artist Liaison Volunteer</p>
+            <p>
+              During the three days of festival I had the opportunity to work alongside artists, making sure that they had everything they needed for their performance.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#publications'"
+      />
+    </section>
+    <section id="publications">
+      <p class="section__text__p1">Research &amp; Writing</p>
+      <h1 class="title">Publications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container info-card">
+            <h2 class="info-card-title">
+              Enhancing Graph-Based Audio Fingerprinting via Multi-Stage Cross-Similarity Matrix Re-Ranking
+            </h2>
+            <p class="info-card-subtitle">ICCP 2026</p>
+            <p>
+              Based on my bachelor's thesis, this paper details the two-step pipeline built in order to improve audio recognition in the presence of noise and speed shifts. It was presented in ICCP 2026.
+            </p>
+          </div>
+          <div class="details-container color-container info-card">
+            <h2 class="info-card-title">Timpul - avem si nu avem</h2>
+            <p class="info-card-subtitle">Article</p>
+            <p>
+              In this article I explored the pitfalls of procrastination and how one can avoid going down the rabbit hole of time wasting.
+            </p>
+          </div>
+          <div class="details-container color-container info-card">
+            <h2 class="info-card-title">1984 de George Orwell - impresii</h2>
+            <p class="info-card-subtitle">Book Review</p>
+            <p>
+              This is my review for George Orwell's classic dystopian, 1984.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
         onclick="location.href='./#contact'"
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1"> Get in Touch</p>
+      <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
           <p><a href="mailto:molnar.sara.viviana@gmail.com">molnar.sara.viviana@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
           <p><a href="https://www.linkedin.com/in/sara-viviana-molnar/">LinkedIn</a></p>
         </div>
       </div>
@@ -363,11 +457,13 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#volunteering">Volunteering</a></li>
+            <li><a href="#publications">Publications</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2025 Molnar Sara. All Rights Reserved.</p>
+      <p>Copyright &#169; 2026 Molnar Sara. All Rights Reserved.</p>
     </footer>
     <script>function toggleMenu(){
       const menu = document.querySelector(".menu-links");
